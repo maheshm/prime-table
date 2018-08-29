@@ -15,3 +15,20 @@
 * If you’re using external dependencies, please specify those dependencies and how to install them.
 * Create a git repository containing the initial files and do regular and small commits to log your process.
 * Please package your code OR include running instructions.
+
+## Solution
+
+* The algorithm is same as that used in core of Ruby lib since I feel that should be the best implementation that is available.
+* OOPs and extendability have been given special attention (eg: you can have more algorithms implemented that could improve performance)
+
+### Building
+
+To get started run the following from the root directory of repo:
+
+```
+gem build primetable.gemspec
+
+gem install primetable-0.0.1.gem
+```
+
+External dependencies are specified in the Gemfile and is taken care within gem.
